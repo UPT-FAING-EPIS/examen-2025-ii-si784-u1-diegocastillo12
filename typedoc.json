@@ -1,0 +1,83 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": ["./frontend/src"],
+  "entryPointStrategy": "expand",
+  "out": "./docs/frontend",
+  "name": "University Social Network - Frontend Documentation",
+  "includeVersion": true,
+  "excludePrivate": true,
+  "excludeProtected": false,
+  "excludeExternals": true,
+  "readme": "none",
+  "theme": "default",
+  "hideGenerator": false,
+  "sort": ["source-order"],
+  "kindSortOrder": [
+    "Document",
+    "Project",
+    "Module",
+    "Namespace",
+    "Enum",
+    "EnumMember",
+    "Class",
+    "Interface",
+    "TypeAlias",
+    "Constructor",
+    "Property",
+    "Variable",
+    "Function",
+    "Accessor",
+    "Method",
+    "Parameter",
+    "TypeParameter",
+    "TypeLiteral",
+    "CallSignature",
+    "ConstructorSignature",
+    "IndexSignature",
+    "GetSignature",
+    "SetSignature"
+  ],
+  "categorizeByGroup": true,
+  "categoryOrder": [
+    "Components",
+    "Pages", 
+    "Services",
+    "Types",
+    "Utilities",
+    "*"
+  ],
+  "searchInComments": true,
+  "searchInDocuments": true,
+  "cleanOutputDir": true,
+  "titleLink": "https://university-social-network.com",
+  "navigationLinks": {
+    "GitHub": "https://github.com/university/social-network",
+    "API Docs": "../api/README.md"
+  },
+  "sidebarLinks": {
+    "Class Diagram": "../class-diagram.png",
+    "Backend API": "../api/README.md"
+  },
+  "plugin": ["typedoc-plugin-markdown"],
+  "gitRevision": "main",
+  "gitRemote": "origin",
+  "sourceLinkTemplate": "https://github.com/university/social-network/blob/{gitRevision}/{path}#L{line}",
+  "exclude": [
+    "**/node_modules/**",
+    "**/build/**",
+    "**/dist/**",
+    "**/*.test.ts",
+    "**/*.test.tsx",
+    "**/*.spec.ts",
+    "**/*.spec.tsx"
+  ],
+  "externalPattern": [
+    "**/node_modules/**"
+  ],
+  "excludeNotDocumented": false,
+  "excludeInternal": true,
+  "disableSources": false,
+  "sourceLinkExternal": true,
+  "hostedBaseUrl": "https://university-social-network.com/docs/frontend/",
+  "useHostedBaseUrlForAbsoluteLinks": true
+}
